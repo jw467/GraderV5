@@ -290,6 +290,7 @@ Public Class MainForm
         If btnEnterMarks.Text = "Enter Marks" Then
             Dim aCourse As Integer = dlgChooseTitle.ShowDialog
             Dim title As String = dlgChooseTitle.cbxChooseTitle.Text
+            Dim testingGit As Integer = 0
             currentTitle = title
             If title <> "Select Title" Then
                 ShowMarks(title)
